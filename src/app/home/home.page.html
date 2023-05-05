@@ -1,22 +1,71 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <!-- imagem do balão -->
+  
+  <ion-grid>
+    <ion-row class="ion-align-items-center">
+      <ion-col size="6">
+        <img src="https://images.pexels.com/photos/6438543/pexels-photo-6438543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 ">
+      </ion-col>
+      
+      <!-- cadastro -->
+      <ion-col size="6" class="ion-text-center">
 
-  <div id="container">
-    <h3>Projeto com Bootstrap e Ionic!</h3>
-    <hr>
-    <p>Componentes Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components"> - UI Components</a></p>
-    <p>Componentes Bootstrap <a target="_blank" rel="noopener noreferrer" href="https://getbootstrap.com/docs/5.3/components/buttons/"> - UI Components</a></p>
-  </div>
+          <ion-label color="dark">Criar Conta</ion-label>
+
+          <ion-row class="ion-justify-content-center">
+            <ion-col size="6">
+              <ion-item>
+                <ion-input label="Nome"></ion-input>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+          
+          <ion-row class="ion-justify-content-center">
+            <ion-col size="6">
+              <ion-item>
+                <ion-input label="E-mail" type="email"></ion-input>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+
+          <ion-row class="ion-justify-content-center">
+            <ion-col size="6">
+              <ion-item>
+                <ion-input label="Senha" type="password" placeholder="********"></ion-input>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+
+          <ion-row class="ion-justify-content-center">
+            <ion-col size="6">
+              <ion-item>
+                <ion-input label="Confirmar Senha" type="password" placeholder="********"></ion-input>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+
+          <div id="confirmar">
+            <ion-button color="success" shape="round">Criar Conta</ion-button> <br>
+          </div>
+          
+          <!-- Login em outros meios -->
+
+          <div id="login">
+            <ion-label>Login com</ion-label> <br>
+          </div>
+
+          <div id="botao">
+            <ion-button color="primary" shape="round">facebook</ion-button> <br>
+            <ion-button color="secondary" shape="round">twitter</ion-button> <br>
+            <ion-button color="danger" shape="round">google</ion-button> <br>
+          </div>
+
+      </ion-col>
+  </ion-row>
+</ion-grid>
+  
 </ion-content>

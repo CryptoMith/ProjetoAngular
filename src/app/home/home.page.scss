@@ -25,3 +25,21 @@
 #container a {
   text-decoration: none;
 }
+
+img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+#botao {
+  margin-top: 5px;
+}
+
+#confirmar {
+  margin-top: 35px;
+}
+
+#login {
+  margin-top: 30px;
+}
