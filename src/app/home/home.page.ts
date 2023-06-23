@@ -30,6 +30,7 @@ export class HomePage {
       }
     }
     console.log(this.valor1);
+    console.log(this.operador);
     console.log(this.valor2);
   }
 
